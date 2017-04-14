@@ -18,4 +18,8 @@ describe( "Solve", function () {
     it("can do exponentiation", function () {
         expect(solve("5**2")).toEqual(25);
     });
+
+    it("can do brackets first", function () {
+        expect(solve("(5+5)2")).toEqual(20);
+    });
 });
