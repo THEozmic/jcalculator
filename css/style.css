@@ -3,7 +3,7 @@
     padding: 10px;
 }
 
-input#output {
+#output {
     padding: 10px;
     border: 1px solid #c6c6c6;
     border-radius: 2px;
@@ -15,15 +15,16 @@ input#output {
 }
 
 button.button {
+    color: #414444;
+    font-size: 20px;
     padding: 10px;
-    min-width: 20%;
+    min-width: 28%;
     margin: 5px;
     border: 1px solid #c6c6c6;
     border-radius: 2px;
     box-shadow: inset 0px 0px 4px 1px #e5e5e5;
     cursor: pointer;
     display: inline-block;
-    float: left;
 }
 
 .buttons {padding: 10px;width: 90%;box-sizing: border-box;display: inline-block;border: 1px solid #c6c6c6;border-top: 0;box-shadow: inset 0px 0px 4px 1px #e5e5e5;margin-top: -1px;}
@@ -32,4 +33,12 @@ body, html {
     margin: 0px;
     height: 100%;
     width: 100%;
+}
+
+
+button.button.button-l {
+    background-color: #2196F3;
+    box-shadow: inset 0px 0px 4px 1px #3693de;
+    border-color: #2196f3;
+    color: #fff;
 }
