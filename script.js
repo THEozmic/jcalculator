@@ -10,4 +10,4 @@ function solve (equation) {
    patch += other; 
    return solve (patch);
 }
-console.log(solve("25"));
+console.log(solve("5+5(4-9)"));
