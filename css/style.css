@@ -11,18 +11,19 @@ input#output {
     outline: none;
     width: 90%;
     box-sizing: border-box;
-    /* min-width: 320px; */
+    direction: rtl;
 }
 
 button.button {
     padding: 10px;
-    min-width: 13.7%;
+    min-width: 20%;
     margin: 5px;
     border: 1px solid #c6c6c6;
     border-radius: 2px;
     box-shadow: inset 0px 0px 4px 1px #e5e5e5;
     cursor: pointer;
     display: inline-block;
+    float: left;
 }
 
 .buttons {padding: 10px;width: 90%;box-sizing: border-box;display: inline-block;border: 1px solid #c6c6c6;border-top: 0;box-shadow: inset 0px 0px 4px 1px #e5e5e5;margin-top: -1px;}
