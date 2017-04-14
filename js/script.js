@@ -14,6 +14,7 @@ function solve (equation) {
 
   }catch (e) {
     console.log ("An error has occured: [" + e + " ]"); // handle errors
+    return "Error";
   }
 }
 
