@@ -1,6 +1,6 @@
 function solve (equation) {
   try {
-    // resolve brackets before any other code
+    // resolve brackets before any other expression
     equation = equation.split("");
     if (equation[0] == "*") {
       equation[0] = "";
