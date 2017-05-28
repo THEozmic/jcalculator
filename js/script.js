@@ -36,7 +36,7 @@ function solve (equation) {
 }
 
 var prev = "";
-$(".btn").on("click", function () {
+$(".abtn, .equals").on("click", function () {
 
   var action = $(this).attr("data-value").toLowerCase();
 
@@ -62,4 +62,11 @@ $(".btn").on("click", function () {
 
   }
 
+});
+
+$('.equals').click(function(){
+  $('.blink').hide();
+});
+$('.abtn').click(function(){
+  $('.blink').show();
 });
