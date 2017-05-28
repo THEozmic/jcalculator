@@ -35,7 +35,7 @@
 	border: 1px solid #AAA;
 	margin: 5px;
 	cursor: pointer;
-    	display: inline-block;
+	display: inline-block;
 	position: relative;
 	top: 5px;
 	background: #e4e4e4;
@@ -43,6 +43,7 @@
 	font-weight: 700;
 	font-size: 15.5px;
 	font-family: arial;
+	width: 60px;
 }
 
 .abtn:focus{
@@ -61,18 +62,6 @@
 .equals{
 	background: #28b89d;
 	color: #EEF;
-	font-size: 17px;
-	font-family: arial;
-	font-weight: 700;
-	padding: 11px 25px 11px 25px;
-	border-radius: 5px;
-	border: 1px solid #AAA;
-	margin: 5px;
-	cursor: pointer;
-    display: inline-block;
-    /*margin-top: 5px;*/
-    position: relative;
-    top: 5px; 
 }
 .equals:focus{
 	outline: none;
@@ -112,6 +101,7 @@
     margin: 10px;
     color: #28b89d;
     text-decoration: none;
+    display: block;
 }
 
 .credits > a:hover {
