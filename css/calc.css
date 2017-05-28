@@ -77,7 +77,17 @@
 	left: -25px;
 	top: 40px;
 	z-index: 1;
-	animation: on 1s infinite;
+	-webkit-animation: on 1s infinite;
+	        animation: on 1s infinite;
+}
+
+@-webkit-keyframes on{
+	from{
+		color: black;
+	}
+	to{
+		color: transparent;
+	}
 }
 
 @keyframes on{
