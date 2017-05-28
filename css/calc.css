@@ -35,15 +35,14 @@
 	border: 1px solid #AAA;
 	margin: 5px;
 	cursor: pointer;
-    display: inline-block;
-    /*margin-top: 5px;*/
-    position: relative;
-    top: 5px;
-    background: #e4e4e4;
-    color: #444;
-    font-weight: 700;
-    font-size: 15.5px;
-    font-family: arial;
+    	display: inline-block;
+	position: relative;
+	top: 5px;
+	background: #e4e4e4;
+	color: #444;
+	font-weight: 700;
+	font-size: 15.5px;
+	font-family: arial;
 }
 
 .abtn:focus{
