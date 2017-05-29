@@ -130,7 +130,9 @@ $(document).keydown(function(e) {
         case 8: 
         $('.ce').click();
         break;
-        
+
+
+
         case 67: 
         $('.c').click();
         break;
@@ -142,7 +144,9 @@ $(document).keydown(function(e) {
         case 187: 
         $('.equals').click();
         break;
-        
+
+
+
         default: return;
     }
 });
