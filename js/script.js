@@ -53,3 +53,96 @@ $('.equals').click(function(){
 $('.abtn').click(function(){
   $('.blink').show();
 });
+
+/*bind keyboard to buttons*/
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 49: 
+        case 97: 
+        $('.one').click();
+        break;
+
+        case 50:
+        case 98:
+        $('.two').click(); 
+        break;
+
+        case 51:
+        case 99:
+        $('.three').click();
+        break;
+
+        case 52:
+        case 100:
+        $('.four').click();
+        break;
+
+        case 53:
+        case 101:
+        $('.five').click(); 
+        break;
+
+        case 54:
+        case 102:
+        $('.six').click();
+        break;
+
+        case 55:
+        case 103:
+        $('.seven').click();
+        break;
+
+        case 56: 
+        case 104: 
+        $('.eight').click();
+        break;
+
+        case 57:
+        case 105:
+        $('.nine').click();
+        break;
+
+         case 48:
+         case 96:
+        $('.zero').click();
+        break;
+
+        case 190: 
+        $('.dot').click();
+        break;
+
+        case 107:
+        $('.add').click();
+        break;
+
+         case 109:
+        $('.minus').click();
+        break;
+
+        case 106: 
+        $('.times').click();
+        break;
+
+        case 111:
+        $('.divide').click();
+        break;        
+
+        case 8: 
+        $('.ce').click();
+        break;
+        
+        case 67: 
+        $('.c').click();
+        break;
+
+        case 13: 
+        $('.equals').click();
+        break;
+
+        case 187: 
+        $('.equals').click();
+        break;
+        
+        default: return;
+    }
+});
