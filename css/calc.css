@@ -130,5 +130,7 @@
     text-decoration: underline;
 }
 .keybo{
-   color: #00294d; 
+   color: #00294d;
+   text-align: center;
+   font-family: arial;
 }
