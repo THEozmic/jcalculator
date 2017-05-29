@@ -46,3 +46,10 @@ $(".abtn").on("click", function () {
   }
 
 });
+
+$('.equals').click(function(){
+  $('.blink').hide();
+});
+$('.abtn').click(function(){
+  $('.blink').show();
+});
